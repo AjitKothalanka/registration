@@ -4,6 +4,7 @@ const args = require("minimist")(process.argv.slice(2));
 
 let homeContent = "";
 let projectContent = "";
+let registrationContent = "";
 
 fs.readFile("home.html", (err, home) => {
   if (err) {
